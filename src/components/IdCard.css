@@ -1,0 +1,17 @@
+.card {
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-style: double;
+  max-width: 40em;
+  min-height: 5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3px;
+
+}
+
+span {
+
+  font-weight: 800;
+}

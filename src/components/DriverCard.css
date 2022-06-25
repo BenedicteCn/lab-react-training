@@ -1,0 +1,15 @@
+.driver {
+
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+}
+
+.driverCard {
+
+  width: 600px;
+  background-color: blue;
+  color:white;
+  border-radius: 5%;
+
+}
