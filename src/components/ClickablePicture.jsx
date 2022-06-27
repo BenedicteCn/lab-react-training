@@ -1,11 +1,18 @@
 import React from 'react'
+import maxence from '../assets/images/maxence.png'
+import glasses from '../assets/images/maxence-glasses.png'
 
-const ClickablePicture = (props) => {
-  console.log(props.img)
+const ClickablePicture = () => {
+
+  const imageClick = () => {
+    console.log(glasses)
+    return <img src={glasses} alt=""/>
+  }
+
   return (
     <div>
-      <img src={props.img} alt="img" />
-    </div>
+      <img src={maxence} alt="" onClick={() => imageClick()} />
+      </div>
   )
 }
 
